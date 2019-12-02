@@ -1,0 +1,19 @@
+details {
+    width: 400px;
+    border-radius: 8px;
+}
+details p{
+    padding: 10px 20px;
+    front-size: 14px;
+    line-height: 24px;
+    color: red;
+}
+details[open] { background: aqua
+}
+summary {
+    padding: 10px;
+    background-color: springgreen;
+    color: darkorange;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
