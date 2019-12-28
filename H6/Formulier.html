@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulier</title>
+    <link rel="stylesheet" href="../CSS/Formulier.css">
+
+</head>
+<body>
+<form action="formtest.php" method="post">
+    <h1>Voorbeeldformulier</h1>
+
+    <label >Voornaam:</label>
+    <input class="textinputs" type="text" name="voornaam" id="voornaam">
+
+    <label>Lekker eten:</label>
+    <div class="eten">
+        <input type="checkbox">
+        <label>Sperziebonen</label>
+    </div>
+
+    <label >Tussenvoegsel:</label>
+    <input class="textinputs" type="text"  name="tussenvoegsel" id="tussenvoegsel">
+
+    <div class="eten">
+        <input type="checkbox">
+        <label>Aardappelen</label>
+    </div>
+
+    <label>Achternaam:</label>
+    <input class="textinputs" type="text"  name="achternaam" id="achternaam">
+
+    <div class="eten">
+        <input type="checkbox">
+        <label>Hamburger</label>
+    </div>
+
+    <label >Geslacht:</label>
+    <div id="geslacht">
+        <input type="radio" name="geslacht" value="man">
+        <label>Man</label>
+        <input type="radio" name="geslacht" value="vrouw">
+        <label>Vrouw</label>
+    </div>
+
+    <label id="kleurogen">Kleur ogen:</label>
+    <select class="textinputs" name="kleur-ogen">
+        <option>Blauw</option>
+        <option>Bruin</option>
+        <option>Groen</option>
+    </select>
+
+    <label id="datum" >Geboortedatum:</label>
+    <input class="textinputs" type="date" name="geboortedatum">
+
+    <label id="textarea">Omschrijving:</label>
+    <textarea name="omschrijving"></textarea>
+    <br>
+    <div id="buttons">
+        <input id="knop" type="button" value="Annuleren">
+        <input id="submitknop" type="submit" value="Ok">
+    </div>
+
+    <footer>
+        <a href="http://localhost:63342/HTML2019/index.html?_ijt=l0j94ar29va299uq0907k3vchj">Home</a>
+    </footer>
+</form>
+</body>
+</html>
